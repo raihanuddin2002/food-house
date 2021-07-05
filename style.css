@@ -52,7 +52,7 @@ body{
     First Section css start 
    =============================== */
 .first-section{
-    /* width: 100%; */
+    max-width: 100%;
     margin:0 auto;
     display: flex;
     padding: 0px 100px;
@@ -116,3 +116,33 @@ body{
     color: #2f2c2c;
     padding: 0px 20%;
 }
+/* =============================== 
+    Fourth Section css start 
+   =============================== */
+  .fourth-section{
+    max-width: 100%;
+    margin:0 auto;
+    display: flex;
+    padding: 0px 100px;
+    display: flex;
+  }
+  .food-items{
+      width: 25%;
+      padding: 10px 25px;
+      box-shadow: 5px 5px 30px gray;
+      border-radius: 30px;
+  }
+  .food-items-blank{
+      width: 5%;
+      height: auto;
+  }
+  .rec-img{
+      width: 100%;
+  }
+  .rec-title{
+      font-size: 36px;
+  }
+  .rec-para{
+      font-size: 22px;
+      line-height: 1.7em;
+  }
