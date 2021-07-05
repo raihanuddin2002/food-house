@@ -102,3 +102,17 @@ body{
     font-size: 24px;
     padding:0px 80px 60px 0px;
 }
+/* =============================== 
+    Third Section css start 
+   =============================== */
+.section-three-header{
+    font-size: 46px;
+    text-align: center;
+    color:  #707070;
+}
+.section-three-para{
+    font-size: 22px;
+    text-align: center;
+    color: #2f2c2c;
+    padding: 0px 20%;
+}
