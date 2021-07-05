@@ -41,10 +41,8 @@ body{
 }
 #menu li{
     list-style: none;
-    -webkit-list-style: none;
     margin-right: 30px;
     display: inline;
-    -webkit-display: inline;
     font-size: 20px;
     cursor: pointer;
 }
