@@ -1,9 +1,10 @@
 /* Common CSS */
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0px;
 }
 .h1{
-   color:  #6e6e6e;
+   color:  #3a3838;
 }
 .lite-green {
     color: #8CBE45;
@@ -21,14 +22,36 @@ body{
     text-align: right;
 }
 .normal {
-    font-weight: 400;
+    font-weight: 500;
+}
+
+/* =============================== 
+    Header Section css start 
+   =============================== */
+.menu-div{
+     width: 100%;
+    text-align: left;
+    padding: 0px 100px;
+    margin-top: 50px;
+   
+}
+#menu {
+    color : #6e6e6e;
+    padding: 0px;
+}
+#menu li{
+    list-style: none;
+    margin-right: 30px;
+    display: inline;
+    font-size: 20px;
+    cursor: pointer;
 }
 /* =============================== 
     First Section css start 
    =============================== */
 .first-section{
     width: 100%;
-    margin:50px auto;
+    margin:0 auto;
     display: flex;
     padding: 0px 100px;
 }
@@ -46,4 +69,5 @@ body{
     font-size: 22px;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
