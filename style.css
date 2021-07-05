@@ -2,6 +2,8 @@
 body{
   font-family: 'Poppins', sans-serif;
   margin: 0px;
+  width: 100%;
+  max-width: 100%;
 }
 .h1{
    color:  #3a3838;
@@ -29,7 +31,7 @@ body{
     Header Section css start 
    =============================== */
 .menu-div{
-    width: 100%;
+    max-width: 100%;
     text-align: left;
     padding: 0px 100px;
     margin-top: 50px;
@@ -50,7 +52,7 @@ body{
     First Section css start 
    =============================== */
 .first-section{
-    width: 100%;
+    /* width: 100%; */
     margin:0 auto;
     display: flex;
     padding: 0px 100px;
@@ -70,4 +72,33 @@ body{
     border: none;
     border-radius: 50px;
     cursor: pointer;
+}
+/* =============================== 
+    Second Section css start 
+   =============================== */
+.second-section{
+    max-width: 100%;
+    margin:0 auto;
+    display: flex;
+    padding: 0px 100px;
+    background: url(images/shapes/bg1.png);
+    background-size: cover;
+}
+.second-section div{
+    width: 50%;
+}
+.about-img-p{
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+.about-img-p img{
+    margin-bottom: -7px;
+}
+.second-header{
+    font-size: 46px;
+    color: #707070;
+}
+.second-section-para{
+    font-size: 24px;
+    padding:0px 80px 60px 0px;
 }
