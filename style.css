@@ -1,0 +1,29 @@
+/* Common CSS */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.h1{
+   color:  #6e6e6e;
+}
+.lite-green {
+    color: #8CBE45
+}
+.green {
+    color: #659524;
+}
+.gray{
+   color: #969696; 
+}
+/* =============================== 
+    First Section css start 
+   =============================== */
+.first-section{
+    width: 90%;
+    margin:100px auto;
+}
+.first-section div{
+    display: flex;
+}
+.skip-header{
+    font-size: 56px;
+}
