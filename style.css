@@ -180,3 +180,22 @@ body{
       color: rgb(58, 51, 51);
       margin: 0px;
   }
+/* =============================== 
+    sixth Section css start 
+   =============================== */
+.sixth-section{
+  max-width: 100%;
+  background-color: #0B0D17; 
+  padding: 30px 0px 100px 0px; 
+}
+.sixth-section-header{
+    text-align: center;
+    font-size: 36px;
+    color: gray;
+}
+.sixth-section-para{
+    text-align: center;
+    font-size: 18px;
+    color: #5b646d;
+    text-shadow: 1px 1px 9px #000000;
+}
